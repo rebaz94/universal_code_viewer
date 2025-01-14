@@ -194,6 +194,7 @@ class SyntaxHighlighterStyles {
 }
 
 class SyntaxStyle {
+  final double lineHeight;
   final TextStyle baseStyle;
   final TextStyle keywordStyle;
   final TextStyle classStyle;
@@ -209,6 +210,7 @@ class SyntaxStyle {
   final Color backgroundColor;
 
   const SyntaxStyle({
+    this.lineHeight = 28,
     required this.baseStyle,
     required this.keywordStyle,
     required this.classStyle,

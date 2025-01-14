@@ -3,7 +3,6 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  universal_code_viewer
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

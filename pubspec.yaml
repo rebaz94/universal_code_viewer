@@ -10,10 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
   web: ^1.1.0
-  plugin_platform_interface: ^2.1.8
   string_scanner: ^1.2.0
 
 dev_dependencies:
@@ -36,22 +33,6 @@ flutter:
   # This is required for using `dart:ffi`.
   # All these are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
-  plugin:
-    platforms:
-      android:
-        package: com.example.universal_code_viewer
-        pluginClass: UniversalCodeViewerPlugin
-      ios:
-        pluginClass: UniversalCodeViewerPlugin
-      linux:
-        pluginClass: UniversalCodeViewerPlugin
-      macos:
-        pluginClass: UniversalCodeViewerPlugin
-      windows:
-        pluginClass: UniversalCodeViewerPluginCApi
-      web:
-        pluginClass: UniversalCodeViewerWeb
-        fileName: universal_code_viewer_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
